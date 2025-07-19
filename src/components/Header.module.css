@@ -1,0 +1,112 @@
+.logo {
+    height: 80px;
+    width: auto;
+    display: block;
+}
+
+
+
+.navbarToggler {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #fff;
+}
+
+
+.navbarCollapse {
+    height: 100vh;
+}
+
+.navLink {
+    font-family: 'Open Sans',
+        'Helvetica Neue',
+        sans-serif;
+    font-size: 13px;
+    color: #204F7D;
+}
+
+.ctaButton {
+    color: #34bbda;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    border-radius: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.navLink {
+    border-bottom: 1px rgb(194, 194, 194) solid;
+}
+
+
+.ctaButtonPas {
+    color: #34bbda;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+
+
+@media (min-width: 991.98px) {
+    .logo {
+        width: 150px;
+        height: 100%;
+        display: block;
+    }
+
+    .containerHeader {
+        height: 79px;
+    }
+
+    .navLink {
+        font-family: 'Open Sans',
+            'Helvetica Neue',
+            sans-serif;
+        font-size: 13px;
+        border: none;
+    }
+
+    .navLink:hover {
+        color: #01a9ce;
+    }
+
+    .ctaButton {
+        background-color: #34bbda;
+        color: #fff;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13px;
+        border-radius: 20px;
+        transition: opacity 0.3s ease;
+    }
+
+    .ctaButton:hover {
+        color: #fff;
+        background-color: #34bbda;
+        opacity: 0.7;
+    }
+
+    .ctaButtonPas {
+        background-color: #fff;
+        color: #34bbda;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 13px;
+        border-radius: 20px;
+        border: 1px solid #34bbda;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ctaButtonPas:hover {
+        color: #34bbda;
+        border: 1px solid #34bbda;
+        background-color: #fff;
+    }
+
+    .ctaButtonPas i {
+        margin-left: 20px;
+    }
+
+    .navbarCollapse {
+        height: 100%;
+    }
+}

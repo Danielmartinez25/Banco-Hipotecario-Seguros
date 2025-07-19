@@ -1,0 +1,50 @@
+.cardPrice {
+    background-color: #204F7D;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 5%;
+}
+
+.title {
+    color: #F6F6F6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+.cardPrice p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F6F6F6;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.cardList {
+    background-color: #88D0EA;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin: 0 5% 0 5%;
+}
+
+.titleList {
+    color: #204F7D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0;
+    line-height: 22px;
+
+}
+
+.cardList p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #204F7D;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.2;
+}

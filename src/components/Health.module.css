@@ -1,0 +1,73 @@
+.healthContainer {
+    background-color: #e0f8ff;
+    padding: 15px;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #045076;
+    margin: 0;
+    text-align: center;
+}
+
+.healthContainer strong {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #045076;
+}
+
+.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    color: #204f7d;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.boxHealth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.boxHealth p {
+    color: #575756;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+.boxLink {
+    width: 275px;
+    padding: 7px;
+    border-radius: 40px;
+    border: #34BBDA 1px solid;
+    background-color: #FFFF;
+}
+
+.boxLink a {
+    color: #34BBDA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.boxLink img {
+    margin-right: 10px;
+}
+
+@media (min-width: 991.98px) {
+    .boxHealth img {
+        width: 130px;
+        height: 110px;
+    }
+}

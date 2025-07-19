@@ -1,0 +1,176 @@
+.heroText {
+    padding: 0 20px;
+}
+
+
+.heroText h1 {
+    color: #045076;
+    font-size: 56px;
+    font-weight: 775;
+    margin-bottom: 20px;
+    line-height: 45px;
+    letter-spacing: -1.5px;
+}
+
+.heroText p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #045076;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.heroTextHeader p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #34bbda;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.cardHead {
+    background-color: #34bbda;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFFFFF;
+}
+
+.health p {
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    ;
+    font-weight: 500;
+}
+
+.price {
+    height: 133px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #204F7D;
+}
+
+.number {
+    font-size: 64px;
+}
+
+.prepaid {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    ;
+    font-weight: 500;
+}
+
+.plan {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    padding-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.planItem {
+    display: flex;
+    flex-wrap: wrap;
+    color: #204F7D;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    ;
+    font-weight: 500;
+}
+
+.check {
+    margin-top: 6px;
+    color: rgb(102, 214, 102);
+    padding: 6px;
+
+}
+
+.cardInfo {
+    color: #204F7D;
+    font-size: 14px;
+    padding: 0 0 0 8px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    ;
+}
+
+.priceInfo {
+    color: #204F7D;
+    font-size: 14px;
+    padding: 0 8px 0 0;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    ;
+}
+
+.hasta {
+    display: flex;
+    justify-content: end;
+    margin: 0 10px 10px 0;
+    color: #ADB5BD;
+    font-size: 13px;
+}
+
+.formSimulation {
+    margin-top: 5%;
+    background-color: rgb(238, 238, 238);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 95%;
+}
+
+.formSimulation span {
+    color: #204F7D;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    font-weight: 600;
+}
+
+.formSimulation label {
+    color: #575756;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+}
+
+.formSimulation input {
+    background-color: rgb(238, 238, 238);
+}
+
+.formButton {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    background-color: #5bc9e2;
+    padding: 6px 75px;
+}

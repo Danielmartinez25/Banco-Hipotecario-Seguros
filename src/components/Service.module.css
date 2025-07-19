@@ -1,0 +1,77 @@
+.serviceContainer {
+    background-color: #f1f1f1;
+}
+
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #204f7d;
+    margin: 0;
+}
+
+.description {
+    font-size: 21px;
+    color: #575756;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.buttonService {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #204f7d;
+    color: #f6f6f6;
+    width: 95%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.textPanel {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 20px 10px 20px;
+}
+
+.buttonService i {
+    margin-top: 2px;
+    margin-right: 5px;
+
+}
+
+.textPanel h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #204f7d;
+    margin-bottom: 10px;
+}
+
+.textPanel p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0 30px 20px 0;
+}
+
+
+
+@media (min-width: 991.98px) {
+
+    .buttonService {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .textPanel {
+        margin-left: 25%;
+        width: 50%;
+    }
+}
