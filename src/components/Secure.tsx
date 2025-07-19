@@ -13,7 +13,7 @@ export default function Segure() {
   const [flippedFour, setFlippedTFour] = useState(false);
   return (
     <>
-      <div className="container d-flex flex-column align-items-center justify-content-center">
+      <div className="d-flex flex-column align-items-center justify-content-center">
         <h2>Segure</h2>
         <div className="">
           <div

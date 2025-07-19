@@ -5,10 +5,10 @@ import styles from "./CardSocialWork.module.css";
 export default function CardSocialWork() {
   return (
     <div
-      className={`d-flex flex-column flex-md-row justify-content-between mb-5 `}
+      className={` d-flex flex-column  flex-lg-row m-3 h-50	${styles.cardSocialWork}`}
     >
       <div
-        className={` d-flex flex-row align-items-center ${styles.cardPrice}`}
+        className={` d-flex flex-row align-items-center w-100 w-lg-50 me-lg-3 mb-4 mb-lg-0 ${styles.cardPrice}`}
       >
         <Image src={handPrice} alt="Obra Social" width={100} height={100} />
         <div className={`${styles.textPrice}`}>
@@ -20,7 +20,9 @@ export default function CardSocialWork() {
           <p>¿Quién te cuida?</p>
         </div>
       </div>
-      <div className={` d-flex flex-row align-items-center ${styles.cardList}`}>
+      <div
+        className={` d-flex flex-row align-items-center w-100 w-lg-50 ${styles.cardList}`}
+      >
         <Image
           src={handMedical}
           alt="Asistencia médica"

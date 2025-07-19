@@ -2,7 +2,6 @@
     background-color: #204F7D;
     border-radius: 30px;
     padding: 10px 20px;
-    margin: 5%;
 }
 
 .title {
@@ -27,7 +26,6 @@
     background-color: #88D0EA;
     border-radius: 30px;
     padding: 20px 20px;
-    margin: 0 5% 0 5%;
 }
 
 .titleList {
@@ -47,4 +45,90 @@
     margin: 0;
     font-weight: 400;
     line-height: 1.2;
+}
+
+
+@media (min-width: 768px) {
+
+    .cardPrice img {
+        width: 165px;
+        height: 124px;
+    }
+
+    .textPrice {
+        padding: 3%;
+    }
+
+    .title {
+        font-size: 36px;
+        text-align: start;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    .cardPrice p {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: start;
+    }
+
+
+    .cardList img {
+        width: 165px;
+        height: 124px;
+    }
+
+    .textList {
+        padding: 3%;
+    }
+
+    .titleList {
+        font-size: 35px;
+        text-align: start;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    .cardList p {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .cardSocialWork {
+        gap: 4%;
+    }
+
+    .cardPrice {
+        padding: 2%;
+    }
+
+    .textPrice {
+        padding: 0;
+    }
+
+    .cardPrice img {
+        width: 140px;
+        height: 120px;
+    }
+
+    .cardList {
+        padding: 0;
+    }
+
+    .textList {
+        padding: 0;
+    }
+
+    .cardList img {
+        padding-left: 4%;
+        width: 165px;
+        height: 124px;
+    }
 }
