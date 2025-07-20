@@ -6,7 +6,6 @@
 .title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 28px;
-    letter-spacing: -1px;
     font-weight: 700;
     color: #204f7d;
     margin: 0;
@@ -23,8 +22,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #204f7d;
     color: #f6f6f6;
-    width: 95%;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 6px 24px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -33,11 +32,24 @@
     font-weight: 500;
 }
 
+
 .textPanel {
     display: flex;
     flex-direction: column;
     text-align: left;
     padding: 20px 20px 10px 20px;
+}
+
+.spanButton {
+    display: none;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.rotated {
+    transform: rotate(90deg);
 }
 
 .buttonService i {
@@ -55,19 +67,35 @@
 }
 
 .textPanel p {
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    font-weight: 100;
     margin: 0 30px 20px 0;
 }
 
+@media (min-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
 
+    .description {
+        font-size: 23px;
+    }
+
+    .spanButton {
+        display: flex;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f6f6f6;
+        font-size: 16px;
+        margin-right: 16px;
+    }
+}
 
 @media (min-width: 991.98px) {
 
     .buttonService {
         margin-left: 25%;
-        width: 50%;
+        width: 60%;
     }
 
     .textPanel {

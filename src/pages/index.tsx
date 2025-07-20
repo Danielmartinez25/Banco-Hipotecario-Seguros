@@ -9,11 +9,13 @@ import Question from "../components/Question";
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
-      <WhatsAppButton />
-      <CardSocialWork />
-      <Assistance />
+      <div className="container">
+        <Header />
+        <Hero />
+        <WhatsAppButton />
+        <CardSocialWork />
+        <Assistance />
+      </div>
       <Service />
       <Health />
       <Question />
