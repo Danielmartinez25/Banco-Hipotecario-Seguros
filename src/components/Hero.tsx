@@ -79,7 +79,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 order-1 order-md-2">
+          <div className="col-12 col-md-6 order-1 order-md-2 d-flex flex-column">
             <div className={` ${styles.heroText}`}>
               <div className={`d-flex flex-row ${styles.heroTextHeader}`}>
                 <Image
@@ -100,61 +100,62 @@ export default function Hero() {
             <div className={`${styles.formSimulation}`}>
               <form className="p-4 rounded shadow-sm">
                 <span>Simulá tu seguro de salud integral</span>
+                <div className="row">
+                  <div className="mb-3 col-12 col-md-6">
+                    <label htmlFor="firstName" className="form-label">
+                      Nombre *
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="Juan"
+                      required
+                    />
+                  </div>
 
-                <div className="mb-3">
-                  <label htmlFor="firstName" className="form-label">
-                    Nombre *
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="firstName"
-                    name="firstName"
-                    placeholder="Juan"
-                    required
-                  />
-                </div>
+                  <div className="mb-3 col-12 col-md-6">
+                    <label htmlFor="email" className="form-label">
+                      Email *
+                    </label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="juan@email.com"
+                      required
+                    />
+                  </div>
 
-                <div className="mb-3">
-                  <label htmlFor="email" className="form-label">
-                    Email *
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="juan@email.com"
-                    required
-                  />
-                </div>
+                  <div className="mb-3 col-12 col-md-6">
+                    <label htmlFor="phone" className="form-label">
+                      Código de área *
+                    </label>
+                    <input
+                      type="tex"
+                      className="form-control"
+                      id="phone"
+                      name="phone"
+                      placeholder="0"
+                      required
+                    />
+                  </div>
 
-                <div className="mb-3">
-                  <label htmlFor="phone" className="form-label">
-                    Código de área *
-                  </label>
-                  <input
-                    type="tex"
-                    className="form-control"
-                    id="phone"
-                    name="phone"
-                    placeholder="0"
-                    required
-                  />
-                </div>
-
-                <div className="mb-3">
-                  <label htmlFor="phone" className="form-label">
-                    Teléfono *
-                  </label>
-                  <input
-                    type="tel"
-                    className="form-control"
-                    id="phone"
-                    name="phone"
-                    placeholder="1123456789"
-                    required
-                  />
+                  <div className="mb-3 col-12 col-md-6">
+                    <label htmlFor="phone" className="form-label">
+                      Teléfono *
+                    </label>
+                    <input
+                      type="tel"
+                      className="form-control"
+                      id="phone"
+                      name="phone"
+                      placeholder="1123456789"
+                      required
+                    />
+                  </div>
                 </div>
 
                 <div className="text-center">

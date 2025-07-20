@@ -5,7 +5,10 @@ import hipoterioSeguros from "../../public/hipotecarios-seguros.jpg";
 import styles from "./Header.module.css"; // Assuming you have a CSS module for styling
 export default function Header() {
   return (
-    <header className="navbar navbar-expand-lg shadow-sm p-0 position-fixed top-0 start-0 w-100 bg-white">
+    <header
+      className="navbar navbar-expand-lg shadow-sm p-0 position-fixed top-0 start-0 w-100 bg-white"
+      style={{ zIndex: "999" }}
+    >
       <div className={`container ${styles.containerHeader}`}>
         <Link
           href="https://hipotecarioseguros.com.ar/"

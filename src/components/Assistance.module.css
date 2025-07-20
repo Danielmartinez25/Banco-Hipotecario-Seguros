@@ -40,8 +40,6 @@
 }
 
 @media (min-width: 768px) {
-
-
     .textTitle {
         margin-bottom: 0.5rem;
     }
@@ -49,10 +47,7 @@
     .textParagraph {
         padding: 0;
     }
-}
 
-
-@media (min-width: 768px) {
     .cardImg {
         width: 73.31px;
         height: 74.66px;
