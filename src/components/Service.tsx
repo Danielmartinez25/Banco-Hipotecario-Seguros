@@ -41,7 +41,7 @@ export default function Service() {
   return (
     <>
       <div
-        className={`flex flex-col items-center justify-center pt-2 lg-pt-5 pb-3 ${styles.serviceContainer}`}
+        className={`flex flex-col items-center justify-center pt-3 p-sm-3 p-md-4 p-lg-5 ${styles.serviceContainer}`}
       >
         <div className="container">
           <h2 className={`text-center ${styles.title}`}>
