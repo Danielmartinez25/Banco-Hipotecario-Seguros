@@ -13,7 +13,7 @@ export default function Assistance() {
       <div className={`row p-3 m-2 ${styles.assistance}`}>
         <h2 className={styles.title}>Asistencias para tu tranquilidad</h2>
         <div className={styles.divResponsive}></div>
-        <div className="col-12 col-lg-4 mb-4">
+        <div className="col-12 col-lg-4 pt-3">
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
@@ -34,7 +34,7 @@ export default function Assistance() {
             </div>
           </div>
         </div>
-        <div className={`col-12 col-lg-4 mb-4`}>
+        <div className={`col-12 col-lg-4 pt-4`}>
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
@@ -55,7 +55,7 @@ export default function Assistance() {
             </div>
           </div>
         </div>
-        <div className={`col-12 col-lg-4 mb-4`}>
+        <div className={`col-12 col-lg-4 pt-3`}>
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
@@ -76,7 +76,7 @@ export default function Assistance() {
             </div>
           </div>
         </div>
-        <div className={`col-12 col-lg-4 mb-4`}>
+        <div className={`col-12 col-lg-4 pt-3`}>
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
@@ -95,7 +95,7 @@ export default function Assistance() {
             </div>
           </div>
         </div>
-        <div className={`col-12 col-lg-4 mb-4`}>
+        <div className={`col-12 col-lg-4 pt-3`}>
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
@@ -118,7 +118,7 @@ export default function Assistance() {
             </div>
           </div>
         </div>
-        <div className={`col-12 col-lg-4 mb-4`}>
+        <div className={`col-12 col-lg-4 pt-3`}>
           <div
             className={`d-flex flex-column flex-md-row align-items-center h-100`}
           >
