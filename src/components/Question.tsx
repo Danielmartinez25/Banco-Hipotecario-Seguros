@@ -49,7 +49,7 @@ export default function Question() {
   return (
     <>
       <div
-        className={`flex flex-col items-center justify-center ${styles.serviceContainer}`}
+        className={`flex flex-col items-center justify-center  p-3 p-md-4 p-lg-5 ${styles.serviceContainer}`}
       >
         <div className="container">
           <h2 className={`text-center ${styles.title}`}>

@@ -1,6 +1,5 @@
 .healthContainer {
     background-color: #e0f8ff;
-    padding: 15px;
 }
 
 .title {
@@ -14,6 +13,9 @@
 }
 
 .healthContainer strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
     font-weight: 600;
@@ -65,7 +67,34 @@
     margin-right: 10px;
 }
 
+@media (min-width: 768px) {
+
+
+    .title {
+        font-size: 48px;
+    }
+
+    .healthContainer strong {
+        font-size: 20px;
+
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .boxHealth img {
+        width: 193px;
+        height: 145px;
+    }
+
+}
+
 @media (min-width: 991.98px) {
+    .boxHealth {
+        padding-bottom: 2%;
+    }
+
     .boxHealth img {
         width: 130px;
         height: 110px;
