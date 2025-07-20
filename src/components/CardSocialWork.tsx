@@ -5,7 +5,7 @@ import styles from "./CardSocialWork.module.css";
 export default function CardSocialWork() {
   return (
     <div
-      className={` d-flex flex-column  flex-lg-row m-3 h-50	${styles.cardSocialWork}`}
+      className={` d-flex flex-column  flex-lg-row m-2 h-50	${styles.cardSocialWork}`}
     >
       <div
         className={` d-flex flex-row align-items-center w-100 w-lg-50 me-lg-3 mb-4 mb-lg-0 ${styles.cardPrice}`}
