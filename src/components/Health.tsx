@@ -3,7 +3,7 @@ import imageComputer from "../../public/Health/computer.svg";
 import imageCheck from "../../public/Health/check.svg";
 import imageBear from "../../public/Health/bear.svg";
 import imageHeart from "../../public/Health/heart.svg";
-import miniHome from "../../public/Health/miniHome.png";
+import miniHome from "../../public/Health/minihome.png";
 import styles from "./Health.module.css";
 export default function Health() {
   return (
