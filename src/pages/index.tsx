@@ -10,14 +10,12 @@ import Secure from "../components/Secure";
 export default function Home() {
   return (
     <>
-      <div className="container">
-        <Header />
-        <Hero />
-        <WhatsAppButton />
-        <CardSocialWork />
-        <Assistance />
-        <Secure />
-      </div>
+      <Header />
+      <Hero />
+      <WhatsAppButton />
+      <CardSocialWork />
+      <Assistance />
+      <Secure />
       <Service />
       <Health />
       <Question />
