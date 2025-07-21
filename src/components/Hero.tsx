@@ -106,13 +106,16 @@ export default function Hero() {
                     <p>Salud Integral</p>
                   </div>
                   <div
-                    className={`d-flex justify-content-center align-items-center ${styles.price}`}
+                    className={`d-flex flex-column justify-content-center align-items-center ${styles.price}`}
                   >
-                    <span>$</span>
-                    <span className={styles.number}>5.185</span>
-                    <span>/mes</span>
-
-                    <span>$172 / día</span>
+                    <div className="d-flex justify-content-center align-items-center h-50">
+                      <span>$</span>
+                      <span className={styles.number}>5.185</span>
+                      <span>/mes</span>
+                    </div>
+                    <div>
+                      <span className={styles.priceDay}>$172 / día</span>
+                    </div>
                   </div>
                   <div className={styles.prepaid}>
                     <p>Ideal para acompañar tu obra social ó prepaga</p>

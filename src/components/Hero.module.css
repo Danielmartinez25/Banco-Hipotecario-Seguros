@@ -57,8 +57,14 @@
     background-color: #204F7D;
 }
 
+.priceDay {
+    font-size: 14px;
+    color: #F6F6F6;
+}
+
 .number {
     font-size: 64px;
+    font-weight: 600;
 }
 
 .prepaid {
