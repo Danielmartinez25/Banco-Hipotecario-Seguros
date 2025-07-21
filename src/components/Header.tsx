@@ -38,17 +38,19 @@ export default function Header() {
           id="navbarNav"
         >
           <ul className="navbar-nav ms-auto text-center ">
-            <li className="nav-item" id={styles.productList}>
+            <li className="nav-item">
               <Link
+                id={styles.product}
                 href="https://hipotecarioseguros.com.ar/"
                 className={`nav-link ${styles.navLink}`}
               >
-                PRODUCTOS
-                <i className="fa fa-angle-down"></i>
+                Productos
+                <i className={`fa fa-angle-down`}></i>
               </Link>
             </li>
             <li className="nav-item">
               <Link
+                id={styles.linkNav}
                 href="https://hipotecarioseguros.com.ar/blog"
                 className={`nav-link ${styles.navLink}`}
               >
@@ -57,6 +59,7 @@ export default function Header() {
             </li>
             <li className="nav-item">
               <Link
+                id={styles.linkNav}
                 href="https://hipotecarioseguros.com.ar/siniestros"
                 className={`nav-link ${styles.navLink}`}
               >
@@ -65,6 +68,7 @@ export default function Header() {
             </li>
             <li className="nav-item">
               <Link
+                id={styles.linkNav}
                 href="https://hipotecarioseguros.com.ar/contacto"
                 className={`nav-link ${styles.navLink}`}
               >
