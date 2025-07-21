@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import hipoterioSeguros from "../../public/hipotecarios-seguros.jpg";
+import hipotecarioSeguros from "../../public/hipotecarios-seguros.jpg";
 import styles from "./Header.module.css"; // Assuming you have a CSS module for styling
 export default function Header() {
   return (
@@ -15,12 +15,11 @@ export default function Header() {
           className="navbar-brand d-flex align-items-center p-0"
         >
           <Image
-            src={hipoterioSeguros}
+            src={hipotecarioSeguros}
             alt="Hipotecario Seguros"
-            width={150}
-            height={50}
             className={styles.logo}
             priority
+            height={79}
           />
         </Link>
 

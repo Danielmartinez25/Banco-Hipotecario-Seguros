@@ -1,5 +1,6 @@
 .logo {
-    height: 80px;
+    padding: 10px 0;
+    height: 70px;
     width: auto;
     display: block;
 }
@@ -63,6 +64,7 @@
 
 
 @media (min-width: 991.98px) {
+
     #product {
         position: relative;
         z-index: 1;
@@ -85,7 +87,7 @@
     }
 
     .logo {
-        width: 150px;
+        width: 225px;
         height: 100%;
         display: block;
     }

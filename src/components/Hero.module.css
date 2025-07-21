@@ -1,7 +1,10 @@
+.hipoHero {
+    margin-top: 150px;
+}
+
 .heroText {
     padding: 0 20px;
 }
-
 
 .heroText h1 {
     color: #045076;

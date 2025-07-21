@@ -5,7 +5,7 @@ import styles from "./Hero.module.css";
 export default function Hero() {
   return (
     <>
-      <section className={`container pt-5 mt-5 ${styles.hipoHero}`}>
+      <section className={`container ${styles.hipoHero}`}>
         <div className="row">
           <div className="col-12 col-lg-8 order-1 order-lg-2">
             <div className={`${styles.heroText}`}>
