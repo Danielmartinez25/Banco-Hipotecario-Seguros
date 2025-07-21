@@ -5,82 +5,10 @@ import styles from "./Hero.module.css";
 export default function Hero() {
   return (
     <>
-      <section className={`pt-5 mt-5 ${styles.hipoHero}`}>
+      <section className={`container pt-5 mt-5 ${styles.hipoHero}`}>
         <div className="row">
-          <div className="col-12 col-md-6 order-2 order-md-1 d-flex justify-content-center">
-            <div
-              className={`d-flex flex-column align-items-center justify-content-center ${styles.containerHealth}`}
-            >
-              <div className={styles.cardHead}>
-                <div className={`${styles.health}`}>
-                  <p>Salud Integral</p>
-                </div>
-                <div
-                  className={`d-flex justify-content-center align-items-center ${styles.price}`}
-                >
-                  <span>$</span>
-                  <span className={styles.number}>5.185</span>
-                  <span>/mes</span>
-
-                  <span>$172 / día</span>
-                </div>
-                <div className={styles.prepaid}>
-                  <p>Ideal para acompañar tu obra social ó prepaga</p>
-                </div>
-              </div>
-              <div className={styles.plan}>
-                <div className={styles.planItem}>
-                  <i
-                    className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
-                  ></i>
-                  <p>Plan individual</p>
-                </div>
-                <div className={styles.planItem}>
-                  <i
-                    className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
-                  ></i>
-                  <p>Cobertura desde los 18 años</p>
-                </div>
-                <div className={styles.planItem}>
-                  <i
-                    className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
-                  ></i>
-                  <p>Ingreso sin chequeo medico</p>
-                </div>
-                <div className={styles.planItem}>
-                  <i
-                    className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
-                  ></i>
-                  <p>Contratación fácil y 100% online</p>
-                </div>
-                <div>
-                  <div className={`${styles.priceCard}`}>
-                    <span className={styles.hasta}>Hasta</span>
-                  </div>
-                  <div
-                    className={`d-flex justify-content-between ${styles.priceCard}`}
-                  >
-                    <p className={styles.cardInfo}>Enfermedades críticas</p>
-                    <p className={styles.priceInfo}>$1.750.000</p>
-                  </div>
-                  <div
-                    className={`d-flex justify-content-between ${styles.priceCard}`}
-                  >
-                    <p className={styles.cardInfo}>Cirugías</p>
-                    <p className={styles.priceInfo}>$1.750.000</p>
-                  </div>
-                  <div
-                    className={`d-flex justify-content-between ${styles.priceCard}`}
-                  >
-                    <p className={styles.cardInfo}>Transplante de órganos</p>
-                    <p className={styles.priceInfo}>3.500.000</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-6 order-1 order-md-2 d-flex flex-column">
-            <div className={` ${styles.heroText}`}>
+          <div className="col-12 col-lg-8 order-1 order-lg-2">
+            <div className={`${styles.heroText}`}>
               <div className={`d-flex flex-row ${styles.heroTextHeader}`}>
                 <Image
                   src={imageHero}
@@ -90,15 +18,17 @@ export default function Hero() {
                 />
                 <p>¡Nueva protección!</p>
               </div>
-              <h1>Respaldá tu economia ante un inprevisto de salud</h1>
+              <h1>Respaldá tu economia ante un imprevisto de salud</h1>
               <p>
                 Funciona como un complemento al sistema de salud público, obras
                 sociales y prepagas y aporta un beneficio adicional para
                 utilizarlo como necesites.
               </p>
             </div>
-            <div className={`${styles.formSimulation}`}>
-              <form className="p-4 rounded shadow-sm">
+            <div className="d-flex justify-content-center mt-lg-5">
+              <form
+                className={`p-4 rounded shadow-sm mb-4 ${styles.formHealth}`}
+              >
                 <span>Simulá tu seguro de salud integral</span>
                 <div className="row">
                   <div className="mb-3 col-12 col-md-6">
@@ -164,6 +94,80 @@ export default function Hero() {
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 order-2 order-md-1 mb-4">
+            <div className="d-flex justify-content-center justify-content-lg-end">
+              <div
+                className={`d-flex flex-column align-items-center justify-content-center ${styles.containerHealth}`}
+              >
+                <div className={styles.cardHead}>
+                  <div className={`${styles.health}`}>
+                    <p>Salud Integral</p>
+                  </div>
+                  <div
+                    className={`d-flex justify-content-center align-items-center ${styles.price}`}
+                  >
+                    <span>$</span>
+                    <span className={styles.number}>5.185</span>
+                    <span>/mes</span>
+
+                    <span>$172 / día</span>
+                  </div>
+                  <div className={styles.prepaid}>
+                    <p>Ideal para acompañar tu obra social ó prepaga</p>
+                  </div>
+                </div>
+                <div className={styles.plan}>
+                  <div className={styles.planItem}>
+                    <i
+                      className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
+                    ></i>
+                    <p>Plan individual</p>
+                  </div>
+                  <div className={styles.planItem}>
+                    <i
+                      className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
+                    ></i>
+                    <p>Cobertura desde los 18 años</p>
+                  </div>
+                  <div className={styles.planItem}>
+                    <i
+                      className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
+                    ></i>
+                    <p>Ingreso sin chequeo medico</p>
+                  </div>
+                  <div className={styles.planItem}>
+                    <i
+                      className={`fa-solid fa-lg fa-circle-check ${styles.check}`}
+                    ></i>
+                    <p>Contratación fácil y 100% online</p>
+                  </div>
+                  <div>
+                    <div className={`${styles.priceCard}`}>
+                      <span className={styles.cardWord}>Hasta</span>
+                    </div>
+                    <div
+                      className={`d-flex justify-content-between ${styles.priceCard}`}
+                    >
+                      <p className={styles.cardInfo}>Enfermedades críticas</p>
+                      <p className={styles.priceInfo}>$1.750.000</p>
+                    </div>
+                    <div
+                      className={`d-flex justify-content-between ${styles.priceCard}`}
+                    >
+                      <p className={styles.cardInfo}>Cirugías</p>
+                      <p className={styles.priceInfo}>$1.750.000</p>
+                    </div>
+                    <div
+                      className={`d-flex justify-content-between ${styles.priceCard}`}
+                    >
+                      <p className={styles.cardInfo}>Transplante de órganos</p>
+                      <p className={styles.priceInfo}>$3.500.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

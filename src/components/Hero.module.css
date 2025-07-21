@@ -16,7 +16,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: #045076;
-    margin-bottom: 20px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -1px;
@@ -124,7 +123,7 @@
     ;
 }
 
-.hasta {
+.cardWord {
     display: flex;
     justify-content: end;
     margin: 0 10px 10px 0;
@@ -132,7 +131,7 @@
     font-size: 13px;
 }
 
-.formSimulation {
+.formHealth {
     margin-top: 5%;
     background-color: rgb(238, 238, 238);
     border-top-left-radius: 20px;
@@ -142,7 +141,7 @@
     width: 95%;
 }
 
-.formSimulation span {
+.formHealth span {
     color: #204F7D;
     font-size: 19px;
     font-family: 'Franklin Gothic Medium',
@@ -152,7 +151,7 @@
     font-weight: 600;
 }
 
-.formSimulation label {
+.formHealth label {
     color: #575756;
     font-size: 13px;
     font-family: 'Franklin Gothic Medium',
@@ -161,8 +160,15 @@
         sans-serif;
 }
 
-.formSimulation input {
+.formHealth input {
     background-color: rgb(238, 238, 238);
+    border: none;
+}
+
+.formHealth input::placeholder {
+    color: #c7c3c3;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(211, 211, 211);
 }
 
 .formButton {
@@ -173,4 +179,26 @@
     border-radius: 50px;
     background-color: #5bc9e2;
     padding: 6px 75px;
+}
+
+@media (min-width: 991.98px) {
+
+    .number {
+        font-size: 72px;
+    }
+
+    .prepaid {
+        font-size: 18px;
+    }
+
+
+    .planItem {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .formHealth {
+        margin-top: 0;
+        background-color: rgb(238, 238, 238);
+    }
 }
