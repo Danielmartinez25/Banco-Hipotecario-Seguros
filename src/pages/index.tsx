@@ -7,6 +7,7 @@ import Assistance from "@/components/Assistance";
 import Health from "../components/Health";
 import Question from "../components/Question";
 import Secure from "../components/Secure";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
       <Service />
       <Health />
       <Question />
+      <Footer />
     </>
   );
 }
