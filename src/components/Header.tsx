@@ -39,29 +39,41 @@ export default function Header() {
         >
           <ul className="navbar-nav ms-auto text-center ">
             <li className="nav-item" id={styles.productList}>
-              <Link href="#productos" className={`nav-link ${styles.navLink}`}>
+              <Link
+                href="https://hipotecarioseguros.com.ar/"
+                className={`nav-link ${styles.navLink}`}
+              >
                 PRODUCTOS
                 <i className="fa fa-angle-down"></i>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#beneficios" className={`nav-link ${styles.navLink}`}>
+              <Link
+                href="https://hipotecarioseguros.com.ar/blog"
+                className={`nav-link ${styles.navLink}`}
+              >
                 BLOG
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#faqs" className={`nav-link ${styles.navLink}`}>
+              <Link
+                href="https://hipotecarioseguros.com.ar/siniestros"
+                className={`nav-link ${styles.navLink}`}
+              >
                 DENUNCIAR SINIESTROS
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#faqs" className={`nav-link ${styles.navLink}`}>
+              <Link
+                href="https://hipotecarioseguros.com.ar/contacto"
+                className={`nav-link ${styles.navLink}`}
+              >
                 CONTACTO
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href="#mi cuenta"
+                href="https://autogestion.hipotecarioseguros.com.ar/"
                 className={`btn ms-lg-3 ${styles.ctaButton}`}
               >
                 <i className="fa fa-user pr-1 "></i> MI CUENTA
@@ -69,7 +81,7 @@ export default function Header() {
             </li>
             <li className="nav-item">
               <Link
-                href="#P.A.S"
+                href="https://hipotecarioseguros.com.ar/"
                 className={`btn ms-lg-3 ${styles.ctaButtonPas}`}
               >
                 P.A.S.<i className="fa fa-angle-right"></i>
