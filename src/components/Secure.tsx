@@ -21,7 +21,7 @@ export default function Segure() {
             </h2>
           </div>
           <div
-            className={`col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
+            className={`col-7 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
             onClick={() => setFlipped(!flipped)}
           >
             <div className={`${styles.card} ${flipped ? styles.flipped : ""}`}>
@@ -50,7 +50,7 @@ export default function Segure() {
           </div>
 
           <div
-            className={`col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
+            className={`col-7 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
             onClick={() => setFlippedTwo(!flippedTwo)}
           >
             <div
@@ -80,7 +80,7 @@ export default function Segure() {
           </div>
 
           <div
-            className={`col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
+            className={`col-7 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
             onClick={() => setFlippedThree(!flippedThree)}
           >
             <div
@@ -111,7 +111,7 @@ export default function Segure() {
           </div>
 
           <div
-            className={`col-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
+            className={`col-7 col-md-4 col-lg-3 mb-4 d-flex justify-content-center ${styles.cardWrapper}`}
             onClick={() => setFlippedTFour(!flippedFour)}
           >
             <div

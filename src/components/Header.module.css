@@ -6,6 +6,9 @@
 }
 
 
+.iconBurger svg {
+    color: #01a9ce;
+}
 
 .navbarToggler {
     border: none;
