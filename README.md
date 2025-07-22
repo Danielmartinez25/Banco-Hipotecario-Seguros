@@ -5,6 +5,7 @@ Hola Gabriel ¿Como estas? 😊
 Estos son los comandos para correr el proyecto, antes queria agradecerles a ustedes por este lindo desafio, me gusto mucho hacer este proyecto y espero que a vos o al que vea esto tambien. Bueno ahora sin mas preambulos vamos a inicializar el proyecto.
 
 PD: Hice el deploy de la aplicación te la dejo aca: [https://banco-hipotecario-seguros.vercel.app/]
+
 PPD: Acabo de hacer un pequeño cambio, asi que el proyecto base necesita que hagas un git pull, disculpa las molestias
 
 ## Puesta en marcha
