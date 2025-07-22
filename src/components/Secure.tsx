@@ -2,9 +2,9 @@ import { useState } from "react";
 import styles from "./Secure.module.css";
 import Image from "next/image";
 import imageAccident from "../../public/Segure/accident.svg";
-import imageBear from "../../public/Segure/bear.svg";
 import imageCheck from "../../public/Segure/check.svg";
 import imageUmbrella from "../../public/Segure/umbrella.svg";
+import imagePhone from "../../public/Segure/phone.svg";
 
 export default function Segure() {
   const [flipped, setFlipped] = useState(false);
@@ -120,8 +120,8 @@ export default function Segure() {
               <div className={styles.front}>
                 <div className="d-flex justify-content-center mt-4">
                   <Image
-                    src={imageBear}
-                    alt="bear"
+                    src={imagePhone}
+                    alt="phone"
                     className={styles.image}
                     width={150}
                     height={113}

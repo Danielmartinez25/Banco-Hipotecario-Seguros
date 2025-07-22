@@ -20,7 +20,6 @@
 
 .navbarCollapse {
     height: 100vh;
-
 }
 
 .navbarCollapse li {
@@ -67,6 +66,10 @@
 
 
 @media (min-width: 991.98px) {
+
+    .navbarCollapse {
+        height: 0;
+    }
 
     #product {
         position: relative;
